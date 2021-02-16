@@ -10,14 +10,24 @@
 fun main() {
 
     // TODO 1
-    val vehicle = mapOf<String, String>()
+    val vehicles = mapOf(
+        "type" to "Motorcycle",
+        "maxSpeed" to "230Km/s",
+        "maxTank" to "10Ltr"
+    )
 
     // TODO 2
-    val type = ""
-    val maxSpeed = ""
-    val maxTank = ""
+    val type = vehicles["type"]
+    val maxSpeed = vehicles["maxSpeed"]
+    val maxTank = vehicles["maxTank"]
 
     // TODO 3
-    println()
+    val vehicle = """
+        Vehicle
+        Type: $type
+        Maximal Speed: $maxSpeed
+        Maximal Tank: $maxTank
+    """.trimIndent()
+    println(vehicle)
 
 }
