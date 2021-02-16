@@ -15,12 +15,10 @@ fun main() {
     val resultA = calculateResult(valueA, valueB, valueC)
     val resultB = calculateResult(valueA, valueB, null)
 
-    println(
-        """
+    println("""
         ResultA is $resultA
         ResultB is $resultB
-    """.trimIndent()
-    )
+    """.trimIndent())
 }
 
 fun calculateResult(valueA: Int, valueB: Int, valueC: Int?): Int {

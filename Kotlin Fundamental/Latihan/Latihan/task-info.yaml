@@ -3,8 +3,8 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 651
-    length: 46
+  - offset: 641
+    length: 42
     placeholder_text: val result = 0
     initial_state:
       length: 14
@@ -61,5 +61,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 16 Feb 2021 08:22:27 UTC
+  time: Tue, 16 Feb 2021 13:26:44 UTC
 record: -1
