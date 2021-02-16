@@ -24,5 +24,6 @@ fun main() {
 }
 
 fun calculateResult(valueA: Int, valueB: Int, valueC: Int?): Int {
+    // TODO
     return valueA + (valueB - (valueC ?: 50))
 }

@@ -8,17 +8,17 @@
  */
 
 fun main() {
-    val listNumber = 1.rangeTo(100)
+    val listNumber = 1..100
 
-    for (number in listNumber) {
+    listNumber.forEach {
         // TODO 1
-        if (false) continue
+        if (it % 2 == 0) return@forEach
 
         // TODO 2
-        if (false) break
+        if (it > 15) return
 
         // TODO 3
-        val result =0
+        val result = it * (it + 10)
         println("range result is $result")
     }
 }
