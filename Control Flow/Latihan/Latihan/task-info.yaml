@@ -3,7 +3,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 397
+  - offset: 403
     length: 26
     placeholder_text: if (false) continue
     initial_state:
@@ -13,7 +13,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: if (number % 2 == 0) continue
-  - offset: 444
+  - offset: 450
     length: 42
     placeholder_text: if (false) break
     initial_state:
@@ -23,7 +23,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: if (number > 15) break
-  - offset: 487
+  - offset: 493
     length: 10
     placeholder_text: val result =0
     initial_state:
@@ -74,5 +74,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Tue, 16 Feb 2021 11:13:54 UTC
+  time: Wed, 17 Feb 2021 06:58:19 UTC
 record: -1

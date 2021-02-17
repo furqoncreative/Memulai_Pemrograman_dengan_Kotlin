@@ -10,15 +10,15 @@
 fun main() {
     val listNumber = 1..100
 
-    listNumber.forEach {
+    for (number in listNumber) {
         // TODO 1
-        if (it % 2 == 0) return@forEach
+        if (number%2 == 0) continue
 
         // TODO 2
-        if (it > 15) return
+        if (number>15) break
 
         // TODO 3
-        val result = it * (it + 10)
+        val result = number * (number + 10)
         println("range result is $result")
     }
 }
